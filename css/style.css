@@ -1,0 +1,209 @@
+.container{
+	overflow: hidden;
+}
+
+.box1{
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	opacity: 0.25;
+	float: left;
+}
+
+
+.box2{
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	opacity: 0.5;
+	float: left;
+}
+
+
+.box3{
+	height: 200px;
+	width: 200px;
+	background-color: green;
+	float: left;
+}
+
+.divimg{
+	height: 400px;
+    background-image: url(../images/clock.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+}
+
+.dotted{
+	border: dotted;
+}
+.dashed{
+	border: dashed;
+}
+.solidborder{
+	border: solid;
+}
+.double{
+	border: double;
+}
+.groove{
+	border: groove;
+}
+.mixborder{
+	border-style: dotted dashed solid double;
+	border-width: 5px;
+	border-color: red;
+}
+
+.border{
+	border: 5px solid orange;
+	border-radius: 15px;
+}
+
+.box-model{
+	width: 400px;
+	height: 200px;
+	background: lightcyan;
+	border: 15px solid orange;
+	padding: 50px;
+	margin: 50px;
+	text-align: center;
+}
+
+.outline{
+	border: 1px solid black;
+	outline-style: solid;
+	outline-color: red;
+	outline-width: 5px;
+	outline-offset: 15px;
+	margin: 50px;
+	color: #fff;
+	background: grey;
+}
+
+.text{
+	padding: 50px;
+	text-align: justify ;
+	letter-spacing: 5px;
+	line-height: 1.8;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.glyphicon{
+	font-size: 50px;
+	padding: 50px;
+}
+
+.clickbutton{
+	border-radius: 15px;
+	color: white;
+	background-color: blue;
+	padding: 15px 20px;
+	text-decoration: none;
+	margin-left: 50px;
+	display: inline-block;
+	text-align: center;
+}
+
+.clickbutton:hover{
+	color: lightgray;
+	text-decoration: none;
+}
+
+li{
+	color: black;
+}
+
+table{
+	width: 50%;
+	border-collapse: collapse;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+th{
+	height: 50px;
+	text-align: center;
+}
+td{
+	height: 30px;
+}
+
+.posrel{
+	height: 500px;
+	width: 500px;
+	border: 1px solid black;
+	position: relative;
+}
+
+
+.posabs{
+	position: absolute;
+	right: 0;
+	top: 100px;
+	height: 250px;
+	width: 250px;
+	border: 1px solid blue;
+}
+
+.menu{
+	background-color: green;
+	margin-bottom: 500px;
+}
+
+.menu li{
+	list-style-type: none;	
+	display: inline-block;
+	position: relative;
+}
+
+.menu li a{
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	background-color: yellow;
+}
+
+.menu li:hover ul{
+	display: block;
+}
+
+
+.menu li ul li{
+	list-style-type: none;
+}
+.menu li ul li a{
+	text-decoration: none;
+	padding: 15px 10px;
+	color: #000;
+}
+.gallery{
+	float: left;
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+.gallery img{
+	width: 100%;
+	
+}
+
+.frmclient input{
+	width: 500px;
+}
+textarea{
+	width: 500px;
+}
+
+button{
+	padding: 15px 35px;
+}
+
+
+
